@@ -89,8 +89,8 @@ function IndexPage() {
 	if (uploadedFiles.length === 0) {
 		mainContent = (<>
 			<h1 className='text-4xl text-center mb-10'>
-				<img className='inline-block w-14 h-14' src='/quants_logo_black.png' alt='quads logo' />{' '}
-				quads
+				<img className='inline-block w-14 h-14' src='/hintings_logo_green.png' alt='hintings logo' />{' '}
+				HiNTinGs
 			</h1>
 			<Button 
 				className='px-5 py-2 rounded-full text-white mx-auto block' bg='green'
@@ -103,8 +103,8 @@ function IndexPage() {
 	} else if (!processingAnswer) {
 		mainContent = (<>
 			<h1 className='text-4xl text-center mb-5'>
-				<img className='inline-block w-14 h-14' src='/quants_logo_black.png' alt='quads logo' />{' '}
-				quads
+				<img className='inline-block w-14 h-14' src='/hintings_logo_green.png' alt='hintings logo' />{' '}
+				HiNTinGs
 			</h1>
 			<div className='xl:absolute xl:top-20 xl:right-20 mb-5'>
 				<h4 className='hidden xl:block text-lg font-bold text-center mb-3'>
