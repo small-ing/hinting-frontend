@@ -17,6 +17,7 @@ const ALLOWED_FILES = ['text/plain', 'text/markdown'];
 function UploadOverlay({ show, onUploadSuccess }: Props) {
 	const [files, setFiles] = useState<File[]>([]);
 	const [processingUpload, setProcessingUpload] = useState(false);
+
 	const FileInput = useRef<HTMLInputElement>(null);
 
 	const filesJSX = [];
@@ -38,7 +39,7 @@ function UploadOverlay({ show, onUploadSuccess }: Props) {
 
 	const onUploadFiles = () => {
 		setProcessingUpload(true);
-		const url = API_URL + '/documents/';
+		const url = API_URL + '/data/';
 		const form = new FormData();
 		for (let i = 0; i < files.length; i++) {
 			form.append('files', files[i]);

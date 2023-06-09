@@ -104,7 +104,7 @@ function IndexPage() {
 		mainContent = (<>
 			<h1 className='text-4xl text-center mb-5'>
 				<img className='inline-block w-14 h-14' src='/hintings_logo_green.png' alt='hintings logo' />{' '}
-				HiNTinGs
+				hintings
 			</h1>
 			<div className='xl:absolute xl:top-20 xl:right-20 mb-5'>
 				<h4 className='hidden xl:block text-lg font-bold text-center mb-3'>
